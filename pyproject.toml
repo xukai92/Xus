@@ -1,7 +1,20 @@
 [project]
 name = "xuos"
 version = "0.1.0"
-description = "Add your description here"
+description = "XuOS"
 readme = "README.md"
 requires-python = ">=3.11.10"
-dependencies = []
+dependencies = [
+    "aisuite[anthropic,google,openai]>=0.1.11",
+    "click<8.2.0",
+    "pyperclip>=1.9.0",
+    "python-dotenv>=1.1.0",
+    "rich>=14.0.0",
+]
+authors = [
+    {name = "Kai Xu", email = "me@xuk.ai"},
+]
+license = {text = "MIT"}
+
+[project.scripts]
+xu = "main:cli"
