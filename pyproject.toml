@@ -1,5 +1,5 @@
 [project]
-name = "xuos"
+name = "xus"
 version = "0.1.0"
 description = "XuOS"
 readme = "README.md"
@@ -17,4 +17,4 @@ authors = [
 license = {text = "MIT"}
 
 [project.scripts]
-xu = "main:cli"
+xus = "main:cli"
